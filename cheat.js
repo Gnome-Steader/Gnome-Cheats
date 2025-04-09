@@ -1,14 +1,3 @@
-// ==UserScript==
-// @name         Surplus
-// @version      1.9
-// @description  A cheat for survev.io & more
-// @author       mahdi, noam
-// @match        *://*/*
-// @run-at       document-start
-// @icon         https://drive.google.com/file/d/1mAQjBqMi9voCdscN04UqRfcBMSg70Egj/view
-// ==/UserScript==
-
-// Copyright © Surplus Softworks
 
 (function() {
     // List of allowed domains for the script to run

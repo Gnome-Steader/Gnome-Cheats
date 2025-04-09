@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Gnome",
+  "version": "1.0",
+  "description": "Even gnomes cheat.",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "host_permissions": [
+    "*://*.survev.io/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.example.com/*"],
+      "js": ["cheat.js"]
+    }
+  ],
+}

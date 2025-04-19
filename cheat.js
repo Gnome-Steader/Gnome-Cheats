@@ -1,11 +1,13 @@
 // ==UserScript==
- // @name         Survev-KrityHack
- // @namespace    https://github.com/Drino955/survev-krityhack
+ // @name         Gnomehack
+ // @namespace    https://raw.githubusercontent.com/Gnome-Steader/surplus2/55539feef928e1123f94df37ab4a8b6cb7519593/cheat.js?token=GHSAT0AAAAAADCPCXH4ZK7JPB2QO22BWRNK2AC5OMA
  // @version      0.1.75
  // @version      0.2.0
  // @description  Aimbot, xray, tracer, better zoom, smoke/obstacle opacity, autoloot, player names...
- // @author       KrityTeam
+ // @author       Gnome
  // @match        *://survev.io/*
+//@match         *://resurviv.biz/*
+// @match        *://zurviv.io/*
 (function() {
     // List of allowed domains for the script to run
     const whitelist = [

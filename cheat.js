@@ -1,8 +1,7 @@
 // ==UserScript==
  // @name         Gnomehack
  // @namespace    https://raw.githubusercontent.com/Gnome-Steader/surplus2/55539feef928e1123f94df37ab4a8b6cb7519593/cheat.js?token=GHSAT0AAAAAADCPCXH4ZK7JPB2QO22BWRNK2AC5OMA
- // @version      0.1.75
- // @version      0.2.0
+ // @version      0.1.0
  // @description  Aimbot, xray, tracer, better zoom, smoke/obstacle opacity, autoloot, player names...
  // @author       Gnome
  // @match        *://survev.io/*

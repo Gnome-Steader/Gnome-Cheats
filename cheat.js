@@ -1,4 +1,11 @@
-
+// ==UserScript==
+ // @name         Survev-KrityHack
+ // @namespace    https://github.com/Drino955/survev-krityhack
+ // @version      0.1.75
+ // @version      0.2.0
+ // @description  Aimbot, xray, tracer, better zoom, smoke/obstacle opacity, autoloot, player names...
+ // @author       KrityTeam
+ // @match        *://survev.io/*
 (function() {
     // List of allowed domains for the script to run
     const whitelist = [

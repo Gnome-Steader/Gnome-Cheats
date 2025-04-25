@@ -7,7 +7,10 @@
  // @match        *://survev.io/*
 //@match         *://resurviv.biz/*
 // @match        *://zurviv.io/*
+// @grant       none
 // ==/UserScript==
+
+(async () => {
 (function() {
     // List of allowed domains for the script to run
     const whitelist = [
@@ -1501,4 +1504,5 @@
             startScript();
         })();
     })();
+})();
 })();

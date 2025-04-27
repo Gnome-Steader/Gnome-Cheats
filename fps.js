@@ -23,7 +23,8 @@
 // @match        *://rarepotato.com/*
 // @grant        none
 // ==/UserScript==
- 
+
+(async () => {
 (function() {
     'use strict';
  
@@ -67,4 +68,5 @@
         }
     };
 }())
+})();
 })();

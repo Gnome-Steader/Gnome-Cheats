@@ -1,14 +1,12 @@
 // ==UserScript==
-// @name         Surplus
+// @name          surmod
 // @version      1.9
 // @description  A cheat for survev.io & more
-// @author       mahdi, noam
+// @author        , Gnome
 // @match        *://*/*
 // @run-at       document-start
 // @icon         https://i.postimg.cc/W4g7cxLP/image.png
 // ==/UserScript==
-
-// Copyright © Surplus Softworks
 
 (function() {
     // List of allowed domains for the script to run
@@ -299,8 +297,8 @@
                 <div class="popup">
                     <div class="header">
                         <img src="https://i.postimg.cc/W4g7cxLP/image.png" alt="Menu" class="menu-icon">
-                        <div class="title">Surplus</div>
-                        <div class="credit">by mahdi, noam</div>
+                        <div class="title"> surmod</div>
+                        <div class="credit">by  , Gnome</div>
                     </div>
                     <div class="navbar">
                         <div class="nav-tabs">
@@ -463,7 +461,7 @@
                         </div>
                         <div class="section">
                             <div class="section-title"><div class="section-title-container">Credits</div></div>
-                            <p class="credits-text">mahdi1337: Developer, Designer<br>noam: Developer</p>
+                            <p class="credits-text"> 1337: Developer, Designer<br>Gnome: Developer</p>
                         </div>
                     </div>
                 </div>

@@ -1,14 +1,14 @@
 // ==UserScript==
- // @name         Gnomehack
- // @namespace    https://raw.githubusercontent.com/Gnome-Steader/surplus2/55539feef928e1123f94df37ab4a8b6cb7519593/cheat.js?token=GHSAT0AAAAAADCPCXH4ZK7JPB2QO22BWRNK2AC5OMA
- // @version      0.1.0
- // @description  Aimbot, xray, tracer, better zoom, smoke/obstacle opacity, autoloot, player names...
- // @author       Gnome
- // @match        *://survev.io/*
-//@match         *://resurviv.biz/*
-// @match        *://zurviv.io/*
-// @grant       none
+// @name         Surplus
+// @version      1.9
+// @description  A cheat for survev.io & more
+// @author       mahdi, noam
+// @match        *://*/*
+// @run-at       document-start
+// @icon         https://i.postimg.cc/W4g7cxLP/image.png
 // ==/UserScript==
+
+// Copyright © Surplus Softworks
 
 (function() {
     // List of allowed domains for the script to run
@@ -298,9 +298,9 @@
             <div id="ui">
                 <div class="popup">
                     <div class="header">
-                        <img src="https://drive.google.com/file/d/1mAQjBqMi9voCdscN04UqRfcBMSg70Egj/view" alt="Menu" class="menu-icon">
+                        <img src="https://i.postimg.cc/W4g7cxLP/image.png" alt="Menu" class="menu-icon">
                         <div class="title">Surplus</div>
-                        <div class="credit">by The Gnome</div>
+                        <div class="credit">by mahdi, noam</div>
                     </div>
                     <div class="navbar">
                         <div class="nav-tabs">
@@ -381,7 +381,7 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3">
                                     <path d="M480-320q75 0 127.5-52.5T660-500q0-75-52.5-127.5T480-680q-75 0-127.5 52.5T300-500q0 75 52.5 127.5T480-320Zm0-72q-45 0-76.5-31.5T372-500q0-45 31.5-76.5T480-608q45 0 76.5 31.5T588-500q0 45-31.5 76.5T480-392Zm0 192q-146 0-266-81.5T40-500q54-137 174-218.5T480-800q146 0 266 81.5T920-500q-54 137-174 218.5T480-200Zm0-300Zm0 220q113 0 207.5-59.5T832-500q-50-101-144.5-160.5T480-720q-113 0-207.5 59.5T128-500q50 101 144.5 160.5T480-280Z"/>
                                 </svg>
-                                <div class="section-title-container">X-Ray/Wallhack</div>
+                                <div class="section-title-container">X-Ray</div>
                                 <div class="checkbox-item">
                                     <input type="checkbox" id="xray"> <label for="xray">Enabled</label>
                                 </div>
@@ -431,7 +431,7 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3">
                                     <path d="M480-420q-68 0-123.5 38.5T276-280h408q-25-63-80.5-101.5T480-420Zm-168-60 44-42 42 42 42-42-42-42 42-44-42-42-42 42-44-42-42 42 42 44-42 42 42 42Zm250 0 42-42 44 42 42-42-42-42 42-44-42-42-44 42-42-42-42 42 42 44-42 42 42 42ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-400Zm0 320q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Z"/>
                                 </svg>
-                                <div class="section-title-container">Emote Spam(Warning: This is dangerous to your mental health)</div>
+                                <div class="section-title-container">Emote Spam</div>
                                 <div class="keybind-slot">X</div>
                                 <div class="checkbox-item">
                                     <input type="checkbox" id="emote-spam-enable"> <label for="emote-spam-enable">Enabled</label>
@@ -451,11 +451,19 @@
                             <p class="help-text">The keybinds for each cheat are displayed next to their toggle button, like this:</p>
                             <div class="keybind-slot help-keybind">B</div>
                             <p></p>
-                            <p class="help-text">To make the entire menu disappear/reappear, press Right Shift</p>
+                            <p class="help-text">To make the entire menu disappear / reappear, press Right Shift</p>
+                        </div>
+                        <div class="section">
+                            <div class="section-title"><div class="section-title-container">Discord</div></div>
+                            <p class="help-text">For support, issue reporting, suggestions, and development updates, join our Discord server:</p>
+                            <ul class="discord-links">
+                                <li><span class="link-label">Main:</span> <a style="color:#4c82f7!important" href="https://discord.gg/surviv">https://discord.gg/surviv</a></li>
+                                <li><span class="link-label">Backup:</span> <a style="color:#4c82f7!important" href="https://discord.gg/Ggc2aEeSq5">https://discord.gg/Ggc2aEeSq5</a></li>
+                            </ul>
                         </div>
                         <div class="section">
                             <div class="section-title"><div class="section-title-container">Credits</div></div>
-                            <p class="credits-text">The Gnome: Developer, Designer</p>
+                            <p class="credits-text">mahdi1337: Developer, Designer<br>noam: Developer</p>
                         </div>
                     </div>
                 </div>
@@ -1497,11 +1505,8 @@
             initializeFeatures();
             hookGameDetection(hookGameInit);
         }
-
-        // Main execution
             await initializeDB();
             startScript();
         })();
     })();
-})();
 })();

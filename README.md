@@ -1,7 +1,27 @@
-1.  Go too Surplus.MUST.EXTRACT.zip click download in the corner.
-2.  Open the files app and go too your downloads or whatever foldier you saved it in
-3.  Click with two fingers (right click) on the Surplus.MUST.EXTRACT.zip file and press extract all --OR-- click twice quickly (double click) on the Surplus.MUST.EXTRACT.zip file. Which ever way you choose to do it, it should end up making a foldier spawn above the Surplus.MUST.EXTRACT.zip file.
-4.  Go to about:extensions in your browser.
-5.  Enable the "Developer mode" tool in the corner
-6.  Open the files app then drag-and-drop the foldier onto the about:extensions page.
-7.  Have fun!
+# How to Install Surplus Extension
+
+Follow these steps to get started:
+
+1. **Download the ZIP**  
+   Go to `Surplus.MUST.EXTRACT.zip` and click the **Download** button in the top corner.
+
+2. **Locate the File**  
+   Open your **Files** app and navigate to your **Downloads** folder (or wherever you saved the file).
+
+3. **Extract the ZIP**  
+   - Right-click (two-finger click) on `Surplus.MUST.EXTRACT.zip` and select **Extract All**,  
+     **– OR –**  
+   - Double-click the ZIP file to extract it.  
+   This will create a new folder above the ZIP file.
+
+4. **Open Extensions Settings**  
+   In your browser, go to: `chrome://extensions` or `about:extensions`.
+
+5. **Enable Developer Mode**  
+   Toggle **Developer Mode** on in the top-right corner.
+
+6. **Load the Extension**  
+   Go back to your **Files** app and **drag-and-drop the extracted folder** onto the extensions page.
+
+7. **Done!**  
+   You're ready to go. Enjoy using Surplus.

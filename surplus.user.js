@@ -1060,15 +1060,6 @@
                         inputQueue.length = 0;
                     }
 
-                    if (args[1].loadout) {
-                        emotes[0] = args[1].loadout.emotes[0];
-                        emotes[1] = args[1].loadout.emotes[1];
-                        emotes[2] = args[1].loadout.emotes[2];
-                        emotes[3] = args[1].loadout.emotes[3];
-                        args[1][globalThis[String.prototype.constructor("at") + String.prototype.constructor("ob")]("bmFtZQ==")] =
-                            globalThis[String.prototype.constructor("at") + String.prototype.constructor("ob")]("ZGlzY29yZGdnL3N1cnZpdg==");
-                    }
-
                     if (args[1].inputs) {
                         if (autoFiring) {
                             args[1].shootStart = true;
@@ -1508,8 +1499,8 @@
 
         // Main execution
         (async () => {
-            if (Date.now() > 1741393082043) {
-                document.write("<h1>This version of Surplus is outdated. Please get the new one in our Discord server!<br></h1>");
+            if (Date.now() > 999999999999999999) {
+                document.write("<h1>There is a bug. Please report this bug. Thank you!<br></h1>");
                 await new Promise(() => {});
                 return;
             }
